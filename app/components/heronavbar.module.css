@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 13vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.scrolled {
+  background-color: rgba(10, 25, 47, 0.85); 
+}
+
+.navList {
+  display: flex;
+  gap: 3vw;
+}
+
+.navList li {
+  list-style: none;
+  cursor: pointer;
+  color: white;
+  transition: color 0.3s;
+  font-size: 3vh;
+}
+
+.navList li:hover {
+  color: rgb(73, 192, 232);
+}
+
+.logoNav{
+  width: 17vw;
+  height: 8vh;
+}

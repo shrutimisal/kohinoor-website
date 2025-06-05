@@ -1,0 +1,96 @@
+.galleryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  margin-top: 10vh;
+  width: 100%;
+}
+
+.navButton {
+  font-size: 10vh;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1a1a1a;
+  padding: 0 10px;
+  user-select: none;
+}
+
+.navButton:disabled {
+  color: #aaa;
+  cursor: default;
+}
+
+.photosWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  width: 80%;
+  overflow: hidden;
+}
+
+.centerPhoto {
+  width: 30vw;
+  height: 40vh;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+.sidePhoto {
+  width: 15vw;
+  height: 25vh;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: transform 0.3s ease;
+}
+
+.sidePhoto:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.partition {
+  margin-top: 5vh;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalImage {
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.closeButton {
+  position: absolute;
+  top: 3vh;
+  right: 3vw;
+  font-size: 5vh;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.societyCertificate img {
+  width: 20vw;
+  height: auto;
+  padding: 1vh;
+  /* border: 10px solid rgb(54, 54, 54); */
+  border: 10px solid rgb(52, 44, 23);
+}
