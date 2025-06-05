@@ -56,7 +56,7 @@ const Location = () => {
         </div>
         <div className={styles.goBack} onClick={() => scrollToSection("home")}>
           <IoMdArrowBack />
-          Go Back to Home
+          Go Back to Top
         </div>
       </div>
     </div>
