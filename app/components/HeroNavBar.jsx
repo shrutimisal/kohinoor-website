@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./heronavbar.module.css";
 import Image from "next/image";
 
-const HeroNavBar = ({show}) => {
+const HeroNavBar = ({ show }) => {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -15,7 +15,7 @@ const HeroNavBar = ({show}) => {
       <div>
         {" "}
         <Image
-          src="/images/evhomeslogo.png"
+          src="/images/evhomeslogowhite.png"
           alt="EV Homes Logo"
           width={250}
           height={50}

@@ -1,4 +1,3 @@
-.locationContainer,
 .commContainer,
 .aboutContainer {
   display: flex;
@@ -8,11 +7,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 15vh;
-  /* background-image: url("/images/bluebg.jpg"); */
 }
-
-
-
 
 .locHeadline,
 .comm2Headline,
@@ -20,16 +15,17 @@
 .aboutHeadline {
   font-size: 6vh;
   font-weight: bold;
-  /* color: rgb(13, 139, 181); */
-  /* color: rgb(23, 23, 95); */
-  color: rgba(10, 25, 47, 0.85); 
+  color: rgba(10, 25, 47, 0.85);
 }
 
-.locHeadline{
+.locHeadline {
   color: white;
+  font-size: 4vh;
+  font-weight: 500;
+  padding: 2vh 10vw;
 }
 
-.comm2Headline{
+.comm2Headline {
   margin-top: 3vh;
   font-size: 4vh;
 }
@@ -56,11 +52,45 @@
 .rightdesigns img {
   height: 3.5vh;
   margin-left: 1vw;
-  transform: rotate(180deg); 
+  transform: rotate(180deg);
 }
 
 .partitionDes img {
   margin-top: 5vh;
   width: 25vw;
   height: 6vh;
+}
+
+@media screen and (max-width: 615px) {
+  .locHeadline,
+  .comm2Headline,
+  .commHeadline,
+  .aboutHeadline {
+    font-size: 3vh;
+  }
+
+  .leftdesigns img {
+    height: 2.5vh;
+  }
+
+  .rightdesigns img {
+    height: 2.5vh;
+  }
+
+  .partitionDes img {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 5vh;
+  }
+  .aboutPara {
+    font-size: 2.5vh;
+  }
+  .impText {
+    font-size: 3vh;
+  }
+
+  .commContainer,
+  .aboutContainer {
+    padding-top: 10vh;
+  }
 }

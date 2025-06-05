@@ -10,10 +10,8 @@
   transition: background-color 0.3s ease;
 }
 
-
-
 .scrolled {
-  background-color: rgba(10, 25, 47, 0.85); 
+  background-color: rgba(10, 25, 47, 0.85);
 }
 
 .navList {
@@ -33,7 +31,18 @@
   color: rgb(73, 192, 232);
 }
 
-.logoNav{
+.logoNav {
   width: 17vw;
   height: 8vh;
+}
+
+@media screen and (max-width: 615px) {
+  .logoNav {
+    width: 50vw;
+    height: 5vh;
+  }
+
+  .navList {
+  display: none;
+}
 }
