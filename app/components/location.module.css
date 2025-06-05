@@ -1,0 +1,21 @@
+.locationContainer {
+  margin-top: 5vh;
+  width: 100%;
+  max-width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10vh;
+}
+
+.locationContainer iframe{
+    width: 40vw;
+    height: 60vh;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+  background-color:rgba(4, 22, 49, 0.85) ;
+  margin-top: 5vh ;
+}
