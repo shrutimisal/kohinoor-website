@@ -57,7 +57,7 @@ const Gallery = () => {
               className={
                 idx === centerIndex ? styles.centerPhoto : styles.sidePhoto
               }
-              onClick={() => setSelectedPhoto(photos[idx])} // NEW
+              onClick={() => setSelectedPhoto(photos[idx])}
               style={{ cursor: "pointer" }}
             />
           ))}
@@ -97,7 +97,7 @@ const Gallery = () => {
             src={selectedPhoto}
             alt="Full View"
             className={styles.modalImage}
-            onClick={(e) => e.stopPropagation()} // Prevent close on image click
+            onClick={(e) => e.stopPropagation()}
           />
           <button
             className={styles.closeButton}

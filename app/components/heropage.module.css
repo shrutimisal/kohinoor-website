@@ -121,3 +121,51 @@
   opacity: 0;
   pointer-events: none;
 }
+
+@media screen and (max-width: 615px) {
+  .heroBackground {
+    /* height: 90vh; */
+  }
+
+  .content {
+    font-size: 5vh;
+  }
+
+  .diamondImage img {
+    height: 4vh;
+    width: 9vw;
+  }
+  .subContent {
+    font-size: 3vh;
+  }
+
+  .locationName {
+    font-size: 2.5vh;
+  }
+
+  .locationIcon {
+    font-size: 2vh;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 616px) {
+  .content {
+    font-size: 15vh;
+  }
+
+  .diamondImage img {
+    height: 11vh;
+    width: 8vw;
+  }
+  .subContent {
+    font-size: 6vh;
+  }
+
+  .locationName {
+    font-size: 3.5vh;
+  }
+
+  .locationIcon {
+    font-size: 3vh;
+  }
+}

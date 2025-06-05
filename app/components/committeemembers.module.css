@@ -1,4 +1,3 @@
-
 .membersContainer,
 .mainMembersContainer {
   display: flex;
@@ -45,8 +44,8 @@
   margin-bottom: 1.5vh;
 }
 
-.memberName{
-    font-size: 2.2vh;
+.memberName {
+  font-size: 2.2vh;
 }
 
 .memberDesignation {
@@ -54,6 +53,52 @@
   color: #494949;
 }
 
-.partition{
+.partition {
   margin-top: 5vh;
+}
+
+@media screen and (max-width: 615px) {
+  .memberCard,
+  .mainMemberCard {
+    width: 40vw;
+    height: 30vh;
+  }
+
+  .mainMemberName,
+  .memberName {
+    width: 40vw;
+    font-size: 1.8vh;
+  }
+
+  .memberDesignation {
+    font-size: 1.5vh;
+    color: #2d2d2d;
+  }
+
+  .membersContainer {
+    gap: 2vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 616px) {
+  .memberCard,
+  .mainMemberCard {
+    width: 20vw;
+    height: 30vh;
+  }
+
+  .mainMemberName,
+  .memberName {
+    width: 20vw;
+    font-size: 1.8vh;
+  }
+
+  .memberDesignation {
+    font-size: 1.5vh;
+    color: #2d2d2d;
+  }
+
+  .membersContainer {
+    gap: 2vw;
+  }
 }
