@@ -107,7 +107,7 @@ const CommitteeMembers = () => {
 
       <div className={styles.membersContainer}>
         {members.map((member) => (
-          <div key={member.id}>
+          <div key={member.id} className={styles.memberCard2}>
             <div className={styles.memberCard}>
               <img
                 src={member.image}
